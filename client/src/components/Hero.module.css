@@ -1,0 +1,47 @@
+.Hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(../assets/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container {
+    padding: 7em;
+    
+
+}
+.title {
+    
+    font-family: 'Satisfy', cursive;
+    font-size: 8em;
+   
+}
+
+.textP {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 2em;
+}
+
+.divButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.butImg {
+    
+    width: 10%;
+    height: 9%;
+}
+
+
+
+
+
+
