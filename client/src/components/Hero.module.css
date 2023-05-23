@@ -30,8 +30,10 @@
 }
 
 .divButton {
+    margin-top: 5vh;
     display: flex;
     justify-content: center;
+    height: 10vh;
 }
 
 .divButton img {
@@ -39,13 +41,12 @@
 }
 
 .button{
-    width: 8em;
-    height: 3em;
-    border-radius: 5px;
-    border: solid 1px black;
+    width: 15em;
+    height: 7.5vh;
+    border-radius: 35px;
+    background-color: #438e32b1;
+    color:#f7f7f7;
+    border: transparent;
+    font-size: 1.8em;
 }
 
-.button:hover {
-  display: none;
-  transition: 0.2;
-}

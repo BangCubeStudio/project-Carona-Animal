@@ -10,16 +10,30 @@ const Hero = () => {
       <section className={classes.container}>
         <h1 className={classes.title}>Carona Animal</h1>
         <p className={classes.textP}>Onde há carona animal há amor!</p>
-        <div className={classes.divButton}>
-          
-          <button className={`${classes.button} ${img ? setImg : ""}`}
-            onMouseEnter={() => setImg(true)}
-            onMouseLeave={() => setImg(false)}>
+        <div onMouseLeave={() => setImg(false)}  className={classes.divButton}>
+
+        {!img? (<button className={`${classes.button} ${img ? setImg : ""}` }
+            onMouseEnter={() => setImg(true) }
+            
+            >
+            Saiba mais
+          </button>) :
+          (
+            <img src={buttonImg} alt="" />
+          )}
+        
+
+
+
+          {/* <button className={`${classes.button} ${img ? setImg : ""}` }
+            onMouseEnter={() => setImg(true) }
+            onMouseLeave={() => setImg(false)} 
+            >
             saiba mais
           </button>
           {img && (
             <img src={buttonImg} alt="" />
-          )}
+          )} */}
         </div>
       </section>
 
