@@ -25,8 +25,8 @@
 
 .textP {
     text-align: center;
-    font-family: 'Satisfy', cursive;
-    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
 }
 
 .divButton {
@@ -48,9 +48,11 @@
     color:#f7f7f7;
     border: transparent;
     font-size: 1.8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/* RESPONSIVO */
 
-@media (max-width:780px) {
+@media (max-width:500px){
     .Hero {
         width: 100vw;
         height: 100vh;
@@ -61,15 +63,13 @@
     .container {        
         width: 50vw;
         height: 50vw;
-        margin-top: 10em;
     }
 
     .title {
         transform: rotate(-90deg);
-        font-size: 5em;
-        margin-left: -5em;
-        margin-top: 1em;
-    
+        font-size: 20em;
+        margin-left: -4em;
+        
     }
 
     .textP {
@@ -80,7 +80,30 @@
         display: none;
         
     }
-
-    
-    
 }
+
+@media (max-width:800px) {
+
+    .title {
+        font-size: 3.8em;
+        margin-top: 2em;
+    
+    }
+
+    .container {
+        width: 50vw;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divButton {
+        width: 50vw;
+        height: 7.6vh;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+}
+

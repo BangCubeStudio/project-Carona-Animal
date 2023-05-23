@@ -5,6 +5,7 @@ import buttonImg from '../assets/pet-taxi.png'
 const Hero = () => {
   const [img, setImg] = useState(false)  
   
+  
   return (
     <div className={classes.Hero}>
       <section className={classes.container}>
