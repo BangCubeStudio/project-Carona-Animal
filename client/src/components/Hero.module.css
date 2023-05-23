@@ -50,3 +50,37 @@
     font-size: 1.8em;
 }
 
+@media (max-width:780px) {
+    .Hero {
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-image: url(../assets/heroMobile.png);
+    }
+
+    .container {        
+        width: 50vw;
+        height: 50vw;
+        margin-top: 10em;
+    }
+
+    .title {
+        transform: rotate(-90deg);
+        font-size: 5em;
+        margin-left: -5em;
+        margin-top: 1em;
+    
+    }
+
+    .textP {
+       display: none;
+    }
+
+    .divButton {
+        display: none;
+        
+    }
+
+    
+    
+}
