@@ -1,13 +1,14 @@
-import Hero from './components/Hero'
-import './App.css'
+import Hero from "./components/Hero";
+import "./App.css";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <>
       <Hero />
-
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
