@@ -25,23 +25,85 @@
 
 .textP {
     text-align: center;
-    font-family: 'Satisfy', cursive;
-    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
 }
 
 .divButton {
+    margin-top: 5vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+    height: 10vh;
 }
-.butImg {
+
+.divButton img {
+  width: 5em;
+}
+
+.button{
+    width: 15em;
+    height: 7.5vh;
+    border-radius: 35px;
+    background-color: #438e32b1;
+    color:#f7f7f7;
+    border: transparent;
+    font-size: 1.8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* RESPONSIVO */
+
+@media (max-width:500px){
+    .Hero {
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-image: url(../assets/heroMobile.png);
+    }
+
+    .container {        
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .title {
+        transform: rotate(-90deg);
+        font-size: 20em;
+        margin-left: -4em;
+        
+    }
+
+    .textP {
+       display: none;
+    }
+
+    .divButton {
+        display: none;
+        
+    }
+}
+
+@media (max-width:800px) {
+
+    .title {
+        font-size: 3.8em;
+        margin-top: 2em;
     
-    width: 10%;
-    height: 9%;
+    }
+
+    .container {
+        width: 50vw;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .divButton {
+        width: 50vw;
+        height: 7.6vh;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
 }
-
-
-
-
-
 
