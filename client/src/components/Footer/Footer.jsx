@@ -11,7 +11,7 @@ const Footer = () => {
             "Tudo feito com amor para que voce e seu pet alcance seu destino da
             melhor forma possivel."
           </span>
-          <span className={classes.owner}>- Pamela </span>
+          <span className={classes.owner}>- Pamela Lucchi</span>
           <span className={classes.address}>
             Rua Americo Angélico, 81, São Paulo | Contato: 11980295927
           </span>

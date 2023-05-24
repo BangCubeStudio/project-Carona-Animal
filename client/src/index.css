@@ -13,5 +13,6 @@ html {
 body {
   height: inherit;
   width: inherit;
+  overflow-x: hidden;
   /* background-color: #f2f2f2; */
 }

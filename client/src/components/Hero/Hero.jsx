@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import classes from '../components/Hero.module.css'
-import buttonImg from '../assets/pet-taxi.png'
+import classes from '../Hero/Hero.module.css'
+import buttonImg from '../../assets/pet-taxi.png'
 
 const Hero = () => {
   const [img, setImg] = useState(false)  
