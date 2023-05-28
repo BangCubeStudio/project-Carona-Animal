@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Hero />
-      {/* <About /> */}
+      <About />
       <Footer />
     </>
   );
