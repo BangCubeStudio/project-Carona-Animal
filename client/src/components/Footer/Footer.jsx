@@ -18,7 +18,8 @@ const Footer = () => {
       </div>
       <small className={classes.small}>
         Created by !Cube Studio {new Date().getFullYear()} - Carona Animal -
-        Todos os direitos reservados
+        Todos os direitos reservados - Rua Americo Angélico, São Paulo |
+        Contato: (11) 98029-5927
       </small>
     </footer>
   );

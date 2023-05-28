@@ -1,35 +1,44 @@
 .Hero {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-image: url(../../assets/background/backgroundHero.png) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: url(../../assets/background/backgroundHero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10em;
 }
 
 .title {
-    font-family: "Satisfy", cursive;
-    font-size: 20em;
-    color: #383232;
+  font-family: "Satisfy", cursive;
+  font-size: 20em;
+  color: #383232;
+  color: #0e0d20;
+  color: #161433;
+  color: #13112c;
+  color: #13112cce;
+  color: #13112ce5;
 }
 
 .titleOne {
-    font-family: "Satisfy", cursive;
-    font-size: 20em;
-    color: #383232;
-    margin-left: 2em;
+  font-family: "Satisfy", cursive;
+  font-size: 20em;
+  color: #383232;
+  color: #13112c;
+
+  margin-left: 2em;
+  color: #1a173b;
+  color: #13112c;
+  color: #13112ce5;
 }
 
 /* MODO RESPONSIVO */
@@ -43,15 +52,12 @@
 
   .title {
     font-size: 20em;
-
   }
 
   .titleOne {
     font-size: 20rem;
     margin-left: 1em;
-
   }
-
 }
 
 @media (max-width: 873px) {
@@ -60,39 +66,32 @@
     height: 50vw;
     font-size: 0.9em;
     margin-left: -6em;
-    
   }
 
   .title {
     font-size: 18em;
-
   }
 
   .titleOne {
     font-size: 18rem;
     margin-left: 1em;
-
   }
-
 }
-
 
 @media (max-width: 736px) {
   .Hero {
-    background-size: cover; 
+    background-size: cover;
     background-image: url(../../assets/backgroundMobile.png);
   }
 
-  .container {  
+  .container {
     margin-top: 35em;
-    
   }
 
   .title {
     transform: rotate(-90deg);
     font-size: 13rem;
     margin-left: -1em;
-    
   }
 
   .titleOne {
@@ -102,20 +101,19 @@
 
 @media (max-width: 667px) {
   .Hero {
-    background-size: cover; 
+    background-size: cover;
     background-image: url(../../assets/background/backgroundMobile.png);
   }
 
-  .container {  
+  .container {
     height: 35vh;
-    margin-top: 35em;    
+    margin-top: 35em;
   }
 
   .title {
     transform: rotate(-90deg);
     font-size: 13rem;
     margin-left: -1em;
-    
   }
 
   .titleOne {
@@ -125,9 +123,3 @@
     margin-top: -2em;
   }
 }
-
-
-
-
-
-

@@ -8,7 +8,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #ffffff;
+  background-image: url(../../assets/background/aboutBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .small {
   text-align: center;
@@ -20,6 +23,8 @@
   position: absolute;
   color: #383232f0;
   color: #383232c8;
+  color: #13112c85;
+  color: #13112cd2;
 
   bottom: 0;
   left: 0;
@@ -37,7 +42,9 @@
   padding: 0 1em;
   height: 70%;
   width: 80%;
-  background-color: #ffd374a1;
+  /* background-color: #e9b7602b;
+  background-color: #ff6f0085; */
+
   border-radius: 40px;
 }
 
@@ -50,20 +57,33 @@
   color: #383232;
   color: #383232;
   color: #383232;
+  color: transparent;
+  display: none;
 }
 .owner {
   text-align: end;
   width: 100%;
   color: #383232f0;
   color: #383232;
+  color: #ff6f00;
+  /* color: #ffd474; */
+  color: #383232c8;
+  color: #13112c;
+  color: #13112ce5;
 
   font-style: italic;
+  font-size: 1.8em;
 }
 
 .quote {
   font-size: 1.7em;
   color: #383232f0;
   color: #383232;
+  font-size: 3.7em;
+  color: #ffd500;
+  /* color: #13112c; */
+
+  /* color: #383232c8; */
 }
 
 .p1 {
@@ -74,8 +94,10 @@
   gap: 1em;
   color: #383232f0;
   color: #383232;
+  color: #13112c;
 
   width: 40%;
+  width: 80%;
   padding: 0 1em;
   gap: 2em;
   text-align: center;
@@ -86,6 +108,7 @@
   text-align: center;
   color: #383232f0;
   color: #383232;
+  display: none;
 }
 
 @media (max-width: 1100px) {
