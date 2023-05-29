@@ -81,7 +81,7 @@
 @media (max-width: 736px) {
   .Hero {
     background-size: cover;
-    background-image: url(../../assets/backgroundMobile.png);
+    background-image: url(../../assets/background/mobileBackgroundHero.png);
   }
 
   .container {
@@ -102,7 +102,7 @@
 @media (max-width: 667px) {
   .Hero {
     background-size: cover;
-    background-image: url(../../assets/background/backgroundMobile.png);
+    background-image: url(../../assets/background/mobileBackgroundHero.png);
   }
 
   .container {

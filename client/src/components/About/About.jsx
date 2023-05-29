@@ -22,30 +22,32 @@ const About = () => {
 
           <li className={classes.servicesLi}>
             {" "}
-            Temos passeadores para o seu pet
+            Foi criado com o objetivo de facilitar sua vida e ajudar 
+            seu pet a manter sua rotina mesmo com os compromissos de seus donos.
           </li>
-          <li className={classes.servicesLi}> Temos Carona Animal </li>
-          <li className={classes.servicesLi}> Temos Carona Animal </li>
-          <li className={classes.servicesLi}> Temos Carona Animal </li>
-          <li className={classes.servicesLi}> Temos Carona Animal </li>
+          <li className={classes.servicesLi}> Excelentes profissionais que amam os AUamigos </li>
+          <li className={classes.servicesLi}> Valores acessiveis </li>
+          <li className={classes.servicesLi}> Reduz o estress e o acalma </li>
+          <li className={classes.servicesLi}> Melhorias de sistemas imunológicos </li>
         </div>
         <div className={classes.test}>
           <h2 className={classes.services}>Carona Animal</h2>
           <li className={classes.servicesLi}>
             {" "}
-            Temos passeadores para o seu pet
+            Foi criado com o objetivo de facilitar sua vida, em casos de emergencia ou um passeio
+            que gostaria de fazer com o seu AUmigo, mas nao tem carro? conte conosco
           </li>
           <li className={classes.servicesLi}>
             {" "}
-            Temos Carona Animal dkaosfjas dasjida disajd{" "}
+            Oferecemos a melhor experiencia com qualidade{" "}
           </li>
           <li className={classes.servicesLi}>
             {" "}
-            Temos Carona Animal fsjaifjna{" "}
+            Conforto e segurança acima de tudo{" "}
           </li>{" "}
           <li className={classes.servicesLi}>
             {" "}
-            Temos Carona Animal djasijabf asuhdabshdj dhsuhd dsh sakdnjan
+            Higienização do veiculo ao fim de cada viagem
           </li>
           <li className={classes.servicesLi}>
             {" "}
@@ -53,7 +55,7 @@ const About = () => {
           </li>
           <li className={classes.servicesLi}>
             {" "}
-            Temos Carona Animal dajis dhua{" "}
+            Preços acessiveis{" "}
           </li>
         </div>
       </div>

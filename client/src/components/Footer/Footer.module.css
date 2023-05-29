@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
   background-color: #ffffff;
-  background-image: url(../../assets/background/aboutBackground.png);
+  background-image: url(../../assets/background/backgroundFooter.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -134,11 +134,13 @@
 @media (max-width: 800px) {
   .footer {
     /* height: auto; */
+    background-image: url(../../assets/background/mobileBackgroundFooter.png);
 
     padding: 5vh 0;
   }
   .container {
     flex-direction: column;
+
     height: auto;
     padding: unset;
     width: 95%;
