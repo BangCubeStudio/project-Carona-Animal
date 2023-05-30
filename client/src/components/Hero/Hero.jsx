@@ -6,7 +6,7 @@ const Hero = () => {
     <div className={classes.Hero}>
       <section className={classes.container}>
         <h1 className={classes.title}>Carona</h1>
-        <h1 className={classes.titleOne}>Animal</h1>
+        <h1 className={classes.titleOne}>animal</h1>
       </section>
 
     </div>

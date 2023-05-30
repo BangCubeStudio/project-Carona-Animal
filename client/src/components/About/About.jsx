@@ -22,11 +22,10 @@ const About = () => {
 
           <li className={classes.servicesLi}>
             {" "}
-            Foi criado com o objetivo de facilitar sua vida e ajudar 
-            seu pet a manter sua rotina mesmo com os compromissos de seus donos.
+            Serviço de passeadores de aumigos
           </li>
-          <li className={classes.servicesLi}> Excelentes profissionais que amam os AUamigos </li>
-          <li className={classes.servicesLi}> Valores acessiveis </li>
+          <li className={classes.servicesLi}> Excelentes profissionais que amam os aumigos </li>
+          <li className={classes.servicesLi}> Valores acessíveis </li>
           <li className={classes.servicesLi}> Reduz o estress e o acalma </li>
           <li className={classes.servicesLi}> Melhorias de sistemas imunológicos </li>
         </div>
@@ -34,9 +33,8 @@ const About = () => {
           <h2 className={classes.services}>Carona Animal</h2>
           <li className={classes.servicesLi}>
             {" "}
-            Foi criado com o objetivo de facilitar sua vida, em casos de emergencia ou um passeio
-            que gostaria de fazer com o seu AUmigo, mas nao tem carro? conte conosco
-          </li>
+            Serviço de taxi para você e seu aumigo
+            </li>
           <li className={classes.servicesLi}>
             {" "}
             Oferecemos a melhor experiencia com qualidade{" "}
@@ -51,11 +49,7 @@ const About = () => {
           </li>
           <li className={classes.servicesLi}>
             {" "}
-            Temos Carona Animal askfoasn dauhsudh uhdu
-          </li>
-          <li className={classes.servicesLi}>
-            {" "}
-            Preços acessiveis{" "}
+            Valores acessiveis{" "}
           </li>
         </div>
       </div>

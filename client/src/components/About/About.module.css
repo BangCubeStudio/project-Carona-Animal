@@ -32,8 +32,8 @@
   color: #383232;
   font-size: 10em;
   margin-left: 0.2em;
-  font-family: "Satisfy", cursive;
-  color: #13112c;
+  font-family: 'Indie Flower', cursive;
+  color: #08255e;
 }
 
 .about {
@@ -44,7 +44,7 @@
 }
 
 .aboutP {
-  color: #383232;
+  color: #08255e;
 
   display: flex;
   letter-spacing: 2px;
@@ -66,8 +66,8 @@
   /* margin-top: 1.5em; */
   /* margin-left: 2em; */
   margin-bottom: 2.5vh;
-  font-family: "Satisfy", cursive;
-  color: #13112cce;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #08255e;
 }
 
 .servicesLi {
@@ -79,8 +79,7 @@
   font-size: 2em;
   font-size: 2.7em;
   margin-left: 2.5em;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Indie Flower', cursive;
   letter-spacing: 2px;
 }
 
@@ -114,12 +113,30 @@
     display: flex;
     height: auto;
     flex-direction: column;
-    /* background-image: url(../../assets/background/aboutMobile.png);
-    background-repeat: no-repeat;
-    background-size: cover; */
+    /* background-color: red; */
+  }
+
+  .testContainer {
+    display: block;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    width: 100%;
+    /* margin-left: -5vw; */
+    padding: 5em;
+  }
+  .test {
+    /* border-left: 1px solid #13112c; */
+    height: 100%;
+    width: 100%;
+  }
+  .test:first-child {
+    border-left: unset;
+    /* padding-right: 5vw; */
   }
 
   .h1 {
+    /* background-color: blue; */
     margin-top: 2.5em;
   }
 
