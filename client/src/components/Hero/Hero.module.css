@@ -43,7 +43,7 @@
 
 /* MODO RESPONSIVO */
 
-@media (max-width: 1080px) {
+@media (max-width: 1320px) {
   .container {
     width: 50vw;
     height: 50vw;
@@ -52,6 +52,7 @@
 
   .title {
     font-size: 20em;
+    /* background-color: red; */
   }
 
   .titleOne {
@@ -60,7 +61,27 @@
   }
 }
 
-@media (max-width: 873px) {
+@media (max-width: 800px){
+  .Hero {
+    background-image: url(../../assets/background/backgroundTwoHero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .title {
+    /* background-color: red; */
+    font-size: 17em;
+    margin-left: -0.3em;
+  }
+
+  .titleOne {
+    font-size: 17em;
+    /* background-color: #001aff; */
+    margin-left: 0.3em;
+  }
+}
+
+/*@media (max-width: 873px) {
   .container {
     width: 50vw;
     height: 50vw;
@@ -70,6 +91,8 @@
 
   .title {
     font-size: 18em;
+    background-color: red;
+
   }
 
   .titleOne {
@@ -122,4 +145,4 @@
     margin-left: 0.1em;
     margin-top: -2em;
   }
-}
+} */
