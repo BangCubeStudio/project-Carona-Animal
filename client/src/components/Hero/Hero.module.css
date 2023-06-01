@@ -32,12 +32,11 @@
 .titleOne {
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 23em;
-  color: #383232;
+  /* color: #383232;
   color: #13112c;
-
-  margin-left: 2em;
   color: #1a173b;
-  color: #13112c;
+  color: #13112c; */
+  margin-left: 2em;
   color: #13112ce5;
 }
 
