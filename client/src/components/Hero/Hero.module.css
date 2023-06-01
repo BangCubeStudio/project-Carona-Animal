@@ -21,21 +21,12 @@
 .title {
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 23em;
-  /* color: #383232;
-  color: #0e0d20;
-  color: #161433;
-  color: #13112c;
-  color: #13112cce; */
   color: #13112ce5;
 }
 
 .titleOne {
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 23em;
-  /* color: #383232;
-  color: #13112c;
-  color: #1a173b;
-  color: #13112c; */
   margin-left: 2em;
   color: #13112ce5;
 }
@@ -51,7 +42,6 @@
 
   .title {
     font-size: 20em;
-    /* background-color: red; */
   }
 
   .titleOne {
@@ -68,11 +58,9 @@
 
   .titleOne {
     font-size: 15em;
-    /* margin-left: 0.5em; */
   }
 
 }
-
 
 @media (max-width: 800px){
   .Hero {
@@ -82,15 +70,13 @@
   }
 
   .title {
-    /* background-color: red; */
     font-size: 13em;
     margin-left: -0.6em;
   }
 
   .titleOne {
     font-size: 13em;
-    /* background-color: #001aff; */
-    /* margin-left: 0.3em; */
+  
   }
 }
 
@@ -117,50 +103,3 @@
     margin-left: -0.5em;
   }
 }
-
-/*@media (max-width: 873px) {
-  .container {
-    width: 50vw;
-    height: 50vw;
-    font-size: 0.9em;
-    margin-left: -6em;
-  }
-
-  .title {
-    font-size: 18em;
-    background-color: red;
-
-  }
-
-  .titleOne {
-    font-size: 18rem;
-    margin-left: 1em;
-  }
-}
-
-
-
-@media (max-width: 667px) {
-  .Hero {
-    background-size: cover;
-    background-image: url(../../assets/background/mobileBackgroundHero.png);
-  }
-
-  .container {
-    height: 35vh;
-    margin-top: 35em;
-  }
-
-  .title {
-    transform: rotate(-90deg);
-    font-size: 13rem;
-    margin-left: -1em;
-  }
-
-  .titleOne {
-    font-size: 12rem;
-    transform: rotate(-90deg);
-    margin-left: 0.1em;
-    margin-top: -2em;
-  }
-} */
