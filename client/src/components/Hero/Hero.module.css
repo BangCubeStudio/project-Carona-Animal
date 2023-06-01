@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  background-image: url(../../assets/background/backgroundHero.png);
+  background-image: url(../../assets/assetsHero/backgroundHero.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -64,7 +64,7 @@
 
 @media (max-width: 800px){
   .Hero {
-    background-image: url(../../assets/background/backgroundTwoHero.png);
+    background-image: url(../../assets/assetsHero/backgroundTwoHero.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -83,7 +83,7 @@
 @media (max-width: 736px) {
   .Hero {
     background-size: cover;
-    background-image: url(../../assets/background/mobileBackgroundHero.png);
+    background-image: url(../../assets/assetsHero/mobileBackgroundHero.png);
   }
 
   .container {
