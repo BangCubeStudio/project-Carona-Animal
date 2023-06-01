@@ -61,6 +61,20 @@
   }
 }
 
+@media (max-width: 954px) {
+  .title {
+    font-size: 15em;
+    margin-left: -0.3em;
+  }
+
+  .titleOne {
+    font-size: 15em;
+    /* margin-left: 0.5em; */
+  }
+
+}
+
+
 @media (max-width: 800px){
   .Hero {
     background-image: url(../../assets/background/backgroundTwoHero.png);
@@ -70,14 +84,38 @@
 
   .title {
     /* background-color: red; */
-    font-size: 17em;
-    margin-left: -0.3em;
+    font-size: 13em;
+    margin-left: -0.6em;
   }
 
   .titleOne {
-    font-size: 17em;
+    font-size: 13em;
     /* background-color: #001aff; */
-    margin-left: 0.3em;
+    /* margin-left: 0.3em; */
+  }
+}
+
+@media (max-width: 736px) {
+  .Hero {
+    background-size: cover;
+    background-image: url(../../assets/background/mobileBackgroundHero.png);
+  }
+
+  .container {
+    margin-top: 35em;
+  }
+
+  .title {
+    transform: rotate(-90deg);
+    font-size: 13rem;
+    margin-left: -2em;
+  }
+
+  .titleOne {
+    transform: rotate(-90deg);
+    font-size: 13rem;
+    margin-top: -1em;
+    margin-left: -0.5em;
   }
 }
 
@@ -101,26 +139,7 @@
   }
 }
 
-@media (max-width: 736px) {
-  .Hero {
-    background-size: cover;
-    background-image: url(../../assets/background/mobileBackgroundHero.png);
-  }
 
-  .container {
-    margin-top: 35em;
-  }
-
-  .title {
-    transform: rotate(-90deg);
-    font-size: 13rem;
-    margin-left: -1em;
-  }
-
-  .titleOne {
-    font-size: 12rem;
-  }
-}
 
 @media (max-width: 667px) {
   .Hero {
