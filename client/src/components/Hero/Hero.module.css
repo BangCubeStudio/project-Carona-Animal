@@ -22,12 +22,15 @@
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 23em;
   color: #13112ce5;
+  margin-left: 0.5em;
+  /* margin-top: 1em; */
 }
 
 .titleOne {
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 23em;
   margin-left: 2em;
+  /* margin-top: -0.5em; */
   color: #13112ce5;
 }
 
