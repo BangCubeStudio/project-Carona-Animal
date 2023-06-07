@@ -29,7 +29,6 @@
   width: 50%;
   max-width: 50%;
   color: #13112ce5;
-  
 }
 
 .titleOne {
@@ -95,5 +94,15 @@
 @media (max-width: 456px) {
   .Hero {
     background-image: url(../../assets/assetsHero/mobileBackgroundHero.png);
+  }
+  .titleOne {
+    width: 100%;
+    font-size: 8em;
+    padding: unset;
+    margin-top: -5vh;
+    text-align: unset;
+    max-width: unset;
+    width: unset;
+    padding-bottom: 15vh;
   }
 }
