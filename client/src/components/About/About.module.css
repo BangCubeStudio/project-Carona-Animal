@@ -1,5 +1,5 @@
 .container {
-  width: 100vw;
+  width: 100%;
   min-height: 70vh;
   display: flex;
   align-items: center;
@@ -8,7 +8,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
- 
 }
 .testContainer {
   display: flex;
@@ -17,12 +16,12 @@
   height: auto;
   width: 100%;
   max-width: 100vw;
+  padding: 0 2.5em;
 }
 .test {
   height: 100%;
   width: 100%;
   max-width: 100vw;
-
 }
 .test:first-child {
   border-left: unset;
@@ -33,8 +32,9 @@
   font-size: 8em;
   text-align: center;
   margin-bottom: 2.5vh;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: "Gloria Hallelujah", cursive;
   color: #13112ce5;
+  width: 100%;
 }
 
 .servicesLi {
@@ -42,41 +42,36 @@
   color: #13112cc7;
   font-size: 2em;
   font-size: 2.7em;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
   letter-spacing: 2px;
   max-width: 90%;
 }
 
 /* MODO RESPONSIVO */
 
-@media (max-width: 1273px){
+@media (max-width: 1273px) {
   .container {
     width: 100%;
     height: 100%;
   }
 
   .test {
-    width: 95%;
+    width: 100%;
     margin-top: 5em;
-    /* white-space: nowrap; */
   }
 
-  
   .services {
-    width: 60%;
+    width: 100%;
     height: 60%;
   }
-  
+
   .servicesLi {
     width: 100%;
     text-align: center;
   }
-
 }
 
-
-@media (max-width: 1097px){
- 
+@media (max-width: 1097px) {
   .container {
     width: 100%;
     height: 100%;
@@ -87,13 +82,12 @@
     margin-top: 2em;
   }
 
-  
   .services {
-    width: 60%;
+    width: 100%;
     height: 60%;
     font-size: 6em;
   }
-  
+
   .servicesLi {
     width: 95%;
     font-size: 2.4em;
@@ -101,11 +95,11 @@
 }
 
 @media (max-width: 727px) {
-  .testContainer{
+  .testContainer {
     align-items: center;
     width: 100%;
   }
-  .test{
+  .test {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -138,10 +132,9 @@
   }
   .services {
     height: 60%;
-    font-size: 6em;
+    font-size: 4em;
     text-align: center;
-    width:100%
-
+    width: 100%;
   }
   .servicesLi {
     font-size: 2.4em;
