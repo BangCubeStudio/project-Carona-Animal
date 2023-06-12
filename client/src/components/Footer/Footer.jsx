@@ -7,8 +7,8 @@ const Footer = () => {
         <h2 className={classes.h2}>Carona Animal</h2>
         <p className={classes.p1}>
           <span className={classes.quote}>
-            "Tudo feito com amor para que voce e seu pet alcance seu destino da
-            melhor forma possivel."
+            "Tudo feito com amor para que você e seu pet alcance seu destino da
+            melhor forma possível."
           </span>
           <span className={classes.owner}>- Pamela Lucchi</span>
           <span className={classes.address}>

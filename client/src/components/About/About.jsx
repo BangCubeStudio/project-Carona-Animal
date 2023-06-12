@@ -20,11 +20,11 @@ const About = () => {
           <h2 className={classes.services}>Carona Animal</h2>
           <li className={classes.servicesLi}>
             {" "}
-            Serviço de taxi para você e seu aumigo
+            Serviço de táxi para você e seu aumigo
             </li>
           <li className={classes.servicesLi}>
             {" "}
-            Oferecemos a melhor experiencia com qualidade{" "}
+            Oferecemos a melhor experiência com qualidade{" "}
           </li>
           <li className={classes.servicesLi}>
             {" "}
@@ -32,11 +32,10 @@ const About = () => {
           </li>{" "}
           <li className={classes.servicesLi}>
             {" "}
-            Higienização do veiculo ao fim de cada viagem
+            Higienização do veículo ao fim de cada viagem
           </li>
           <li className={classes.servicesLi}>
-            {" "}
-            Valores acessiveis{" "}
+            {" "}Valores acessíveis{" "}
           </li>
         </div>
       </div>
